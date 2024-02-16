@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.loader-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  background-size: cover;
+}
+.team-match-bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.team-match-banner-image-style {
+  width: 100%;
+}
+.team-match-latest-container {
+  display: flex;
+  flex-direction: column;
+}
+.latest-heading-style {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .latest-heading-style {
+    font-size: 30px;
+  }
+}
+.recent-match-list-container {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

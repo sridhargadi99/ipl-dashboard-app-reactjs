@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.match-card-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .match-card-container {
+    width: 250px;
+  }
+}
+.match-card-image-style {
+  height: 80px;
+  width: 80px;
+}
+@media screen and (min-width: 768px) {
+  .match-card-image-style {
+    height: 120px;
+    width: 120px;
+  }
+}
+.match-card-team-style {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-team-style {
+    font-size: 23px;
+  }
+}
+.match-card-result-style {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-result-style {
+    font-size: 18px;
+  }
+}
+.match-card-status-style {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .match-card-status-style {
+    font-size: 22px;
+  }
+}
+.match-card-status-style1 {
+  color: #18ed66;
+}
+.match-card-status-style2 {
+  color: #e31a1a;
+}

@@ -1,0 +1,130 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 8px;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+  }
+}
+.latest-match-container1 {
+  display: flex;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container1 {
+    flex-grow: 1;
+    align-items: center;
+  }
+}
+.latest-match-text-container {
+}
+.team-style {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .team-style {
+    font-size: 29px;
+  }
+}
+.date-style {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .date-style {
+    font-size: 25px;
+  }
+}
+.stadium-style {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .stadium-style {
+    font-size: 22px;
+  }
+}
+.result-style {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .result-style {
+    font-size: 22px;
+  }
+}
+.latest-match-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-image-container {
+    flex-grow: 1;
+  }
+}
+
+.latest-match-image-style {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-image-style {
+    height: 180px;
+    width: 180px;
+  }
+}
+.hr-rule {
+  width: 100%;
+  border: 1px solid #475569;
+}
+@media screen and (min-width: 768px) {
+  .hr-rule {
+    display: none;
+  }
+}
+.latest-match-container2 {
+  order: 2;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container2 {
+    flex-grow: 1;
+  }
+}
+.heading-style {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading-style {
+    font-size: 27px;
+  }
+}
+.paragraph-style {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .paragraph-style {
+    font-size: 22px;
+  }
+}
